@@ -37,11 +37,12 @@ header h1 {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 .pastas {
-    width: 190;
+    width: 15%;
     height: fit-content;
     margin: 10;
     background-color: lightgray;
     border: 3px solid rgb(173, 173, 173);
+    float: left;
 }
 .pastas h1 {
     text-align: center;
@@ -54,10 +55,11 @@ header h1 {
 }
 .historia {
     margin: 10;
-    width: auto;
-    height: fit-content;
+    width: 80%;
+    height: auto;
     background-color: lightgray;
     border: 3px solid rgb(173, 173, 173);
+    float: right;
 }
 .historia h1{
     text-align: center;
@@ -66,4 +68,8 @@ header h1 {
     text-align: left;
     font-size: large;
     margin: 10;
+}
+.principal {
+    width: auto;
+    height: auto;
 }
