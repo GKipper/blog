@@ -1,12 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hello World</h1>
-</body>
+
+
+<html lang="pt">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/main.css">
+        <title>Cookiepastas</title>
+        <script 
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" 
+            crossorigin="anonymous">
+        </script>
+        <script>
+            $(function () {
+                $("#header").load("header.html");
+            });
+        </script>
+    </head>
+
+    <body>
+        <div id="header"></div>
+        <!--
+        <header>
+            <div class="logo"><a href="./index.html"><img src="./img/logo.png"></a></div>
+            <h1>Cookiepastas</h1>
+            <div class="social">
+                <div class="socialIcons">
+                    <a href="https://github.com/GKipper"><img src="./img/GitHub-Mark-32px.png"></a>
+                    <a href="https://www.linkedin.com/in/gabriel-kipper-849542187/"><img src="./img/icons8-linkedin-circled-32.png"></a>
+                </div>
+            </div>
+        </header>
+        -->
+        <div class="pastas">
+            <h1>Pastas</h1>
+            <a href="./CriaturaArvore.html"><p>Criatura Arvore</p></a>
+            <a href="./YoshikageKira.html"><p>Yoshikage Kira</p></a>
+            <a href="./AsSombrasDeOlhosVermelhos.html"><p>As Sombras de Olhos Vermelhos</p></a>
+            <a href="./AmongUs.html"><p>Among Us</p></a>
+        </div>
+    </body>
+
 </html>
